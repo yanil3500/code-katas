@@ -4,12 +4,13 @@ setup for code-katas
 from setuptools import setup
 
 DEPENDENCIES = ['pytest', 'pytest-cov', 'ipython']
-MODULES = []
+MODULES = ['shortest_word']
 EXTRA_PACKAGES = {
     'test': ['tox']
 }
 CONSOLE_SCRIPTS = {
     'console_scripts': [
+        'shortest_word = shortest_word:main'
     ]
 }
 setup(
