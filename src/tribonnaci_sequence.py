@@ -4,10 +4,13 @@ but summing the last 3 (instead of 2) numbers of the sequence
 to generate the next.
 
 #1 Best Practices Solution by MiraliN, Cptnprice,
-# FranzSchubert92, Chris_Rands, Mr.Child, gallione11
+# Azuaron, Abhi_Scorp
 
-def find_short(s):
-    return min(len(x) for x in s.split())
+def tribonacci(signature, n):
+  res = signature[:n]
+  for i in range(n - 3): res.append(sum(res[-3:]))
+  return res
+
 """
 
 

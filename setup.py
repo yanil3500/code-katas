@@ -10,7 +10,7 @@ EXTRA_PACKAGES = {
 }
 CONSOLE_SCRIPTS = {
     'console_scripts': [
-        'shortest_word = shortest_word:main',
+        'shortest_word = shortest_word'
         'tribonnaci_sequence = tribonnaci_sequence:main'
     ]
 }
