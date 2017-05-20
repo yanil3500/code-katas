@@ -13,6 +13,7 @@ CONSOLE_SCRIPTS = {
         'shortest_word = shortest_word:main',
         'tribonnaci_sequence = tribonnaci_sequence:main',
         'case_reversal_of_consecutive_duplicates = case_reversal_of_consecutive_duplicates:main'
+        'find_the_odd_int = find_the_odd_int:main'
 
     ]
 }
