@@ -31,3 +31,9 @@ My solutions to the katas on codewars. Now, with tests!
 - **Module**: `counting_duplicates.py`
 - **Tests**: `test_counting_duplicates.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/counting-duplicates/train/python)
+
+**The Hidden Word (6th kyu) 2 Credits**
+
+- **Module**: `the_hidden_word.py`
+- **Tests**: `test_the_hidden_word.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/the-hidden-word/train/python)
