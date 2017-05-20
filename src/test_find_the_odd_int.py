@@ -1,3 +1,6 @@
+"""
+Tests for find_the_odd_int
+"""
 import pytest
 
 PARAMETERS_LIST = [

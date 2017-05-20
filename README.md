@@ -25,3 +25,9 @@ My solutions to the katas on codewars. Now, with tests!
 - **Module**: `find_the_odd_int.py`
 - **Tests**: `test_find_the_odd_int.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/find-the-odd-int/train/python)
+
+**Counting Duplicates (6th kyu) 4 Credits**
+
+- **Module**: `counting_duplicates.py`
+- **Tests**: `test_counting_duplicates.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/counting-duplicates/train/python)
