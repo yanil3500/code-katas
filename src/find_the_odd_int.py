@@ -12,19 +12,9 @@ def find_it(seq):
 """
 
 
-def main():
-    """
-    main function
-    """
-    print('whatevs')
-
-
 def find_it(seq):
     """
     return the odd int in the array
     """
     return max(filter(lambda x: seq.count(x) % 2 != 0, seq))
 
-
-if __name__ == '__main__':
-    main()
