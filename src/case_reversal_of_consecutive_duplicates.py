@@ -12,13 +12,6 @@ def reverse(strng): return re.sub(r'(\w)\1+', lambda m: m.group().swapcase(), st
 """
 
 
-def main():
-    """
-    Adds a main function
-    """
-    print('Whatevs')
-
-
 def reverse_case(word):
     boolean_list = [None] * len(word)
     previous_letter = word[0]
@@ -40,5 +33,3 @@ def reverse_case(word):
     return ''.join(boolean_list)
 
 
-if __name__ == '__main__':
-    main()

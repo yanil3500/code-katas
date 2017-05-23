@@ -9,11 +9,6 @@ only alphanumeric characters, including digits, uppercase and lowercase alphabet
 def duplicate_count(s):
   return len([c for c in set(s.lower()) if s.lower().count(c)>1])
 """
-def main():
-    """
-    main function
-    """
-    print('whatevs')
 
 
 def duplicate_count(text):
@@ -32,5 +27,3 @@ def duplicate_count(text):
     return len(duplicates)
 
 
-if __name__ == '__main__':
-    main()

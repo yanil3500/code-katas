@@ -10,12 +10,6 @@ hidden=lambda n: "".join("oblietadnm"[int(d)] for d in str(n))
 
 """
 
-def main():
-    """
-    main function
-    """
-    print('whatevs')
-
 
 def hidden(num):
     """
@@ -29,7 +23,3 @@ def hidden(num):
     for number in str(num):
         words += num_to_letter[int(number)]
     return words
-
-
-if __name__ == '__main__':
-    main()

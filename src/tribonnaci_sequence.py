@@ -14,13 +14,6 @@ def tribonacci(signature, n):
 """
 
 
-def main():
-    """
-    Adds a main function
-    """
-    print('Whatevs')
-
-
 def tribonnaci(seed_values, n_th_number):
     """
     calculates the n-th-fibonacci-numbers given the seed values
@@ -38,6 +31,3 @@ def tribonnaci(seed_values, n_th_number):
     print(numbers)
     return numbers
 
-
-if __name__ == '__main__':
-    main()
